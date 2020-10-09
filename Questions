@@ -1,0 +1,37 @@
+
+    1. The core features of Node.js and Express and why they are useful.
+    What is Node.js
+
+    Node. js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node. js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+    Node.js is an open-source, Javascript runtime environment on Chrome’s V8 that lets you effortlessly develop fast and scalable web applications. It utilizes an event-driven, non-blocking I/O model that makes it lightweight, efficient and excellent for data-intensive real-time applications that run across shared devices.
+    Node.js is an epitome of an exceptionally customizable and scalable tech. The server engine utilizes an event-based, non-blocking I/O model. This makes the adaptation of Javascript easier to the machine language providing execution of the code super fast. Thanks to Javascript and Node.js, the code operates faster in server-to-client direction. This enhances the performance ability of the web applications to the next level. To be more precise, web application development in Node.js ensures a steady and secure non-blocking I/O model, simplifying the code beautifully.
+
+    Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. It facilitates the rapid development of Node based Web applications.
+    The express framework is built on top of the node. js framework and helps in fast-tracking development of server-based applications. Routes are used to divert users to different parts of the web applications based on the request made.
+    Express is also the React of the Backend..
+
+    2. Understand and explain the use of Middleware?
+    Middleware is software that lies between an operating system and the applications running on it. ... Middleware can also be used for distributed processing with actions occurring in real time rather than sending data back and forth.
+
+    3. The basic principles of the REST architectural style.
+    A REST API works in a similar way. You search for something, and you get a list of results back from the service you're requesting from. ... The developer creates the API on the server and allows the client to talk to it. REST determines how the API looks like. It stands for “Representational State Transfer”.
+
+    REST is stateless. That means the communication between the client and the server always contains all the information needed to perform the request. ... The client, the server and any intermediary components can all cache resources in order to improve performance. REST provides a uniform interface between components.
+
+    4. Understand and explain the use of Express Routers.
+    express. Router() is use multiple times to define groups of routes. route used as middleware to process requests. route used as middleware to validate parameters using ".
+
+
+    1.Creating a new express application
+    2.Creating a new route
+    3.Starting an HTTP server on a given port number
+    4.Handling a request once it comes in
+
+    5. Describe tooling used to manually test the correctness of an API.
+    For each API request, the test would need to take the following actions:
+
+    1.Verify correct HTTP status code. ...
+    2.Verify response payload. ...
+    3.Verify response headers. ...
+    4.Verify correct application state. ...
+    5.Verify basic performance sanity.
