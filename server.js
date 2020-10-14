@@ -6,11 +6,11 @@
 
 // server.use(express.json());
 
-// const projectRouter = require('./data/middleware/projectRouter')
-// const actionRouter = require('./data/middleware/actionsRouter')
+// const projectRoute = require('./data/middleware/projectRoute')
+// const actionRoute = require('./data/middleware/actionRoute')
 
-// server.use('/data','/middleware',projectRouter)
-// server.use('/data','/middleware',actionsRouter)
+// server.use('/data','/middleware',projectRoute)
+// server.use('/data','/middleware',actionRoute)
 
 // server.listen(port, () => {
 //     console.log(`Server running at http://localhost:{port}`)
